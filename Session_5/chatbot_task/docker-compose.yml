@@ -11,7 +11,7 @@ services:
       - "5678:5678"
     container_name: chatbot
     environment:
-      - INDEX_DATA=0
+      - INDEX_DATA=1
       - MODEL_NAME=llama3.2:1B
       - EMBEDDING_MODEL=bge-m3
       - PULL_EMBEDDING_MODEL=0
